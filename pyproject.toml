@@ -1,0 +1,18 @@
+[project]
+name = "varlock-repro"
+version = "0.1.0"
+description = "Reproduction repo for varlock issue"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40.0",
+    "google-auth>=2.28.0",
+    "google-auth-oauthlib>=1.2.0",
+    "google-auth-httplib2>=0.2.0",
+    "google-api-python-client>=2.120.0",
+    "pyyaml>=6.0.1",
+    "requests>=2.31.0",
+    "google-generativeai>=0.8.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
